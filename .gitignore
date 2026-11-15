@@ -1,0 +1,21 @@
+# Se versiona solo el código del TFM (src/) y la documentación de la raíz.
+/*
+!/src/
+!/README.md
+!/.gitignore
+
+# Artefactos de compilación y caché
+build/
+install/
+log/
+__pycache__/
+*.pyc
+
+# Repositorio de terceros con su propio Git (se instala aparte, ver README)
+/src/spot_ros2/
+
+# Grabaciones ROS (rosbag): demasiado grandes para GitHub (límite de 100 MB por archivo)
+*.mcap
+*.mcap.gz
+*.db3
+*.db3.zstd
